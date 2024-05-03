@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    background-color: #333;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#samuraiBack {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+footer {
+    background-color: #333;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+
+}
